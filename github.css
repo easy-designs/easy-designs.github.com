@@ -107,6 +107,7 @@ abbr, dfn, acronym {
   }
   
   iframe {
+    clear: both;
     display: block;
     margin: 1em auto;
   }
