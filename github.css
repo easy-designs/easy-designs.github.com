@@ -29,6 +29,8 @@ h1 {
 }
 h2 {
   border-top: 4px solid;
+  clear: both;
+  float: left;
   font-size: 1.2em;
   letter-spacing: .05em;
   text-transform: uppercase;
@@ -53,6 +55,7 @@ abbr, dfn, acronym {
 
 #projects h2 {
   border: 0;
+  float: none;
   text-transform: none;
 }
 
