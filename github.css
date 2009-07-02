@@ -1,0 +1,128 @@
+/*----------------------------------------------------------
+Github CSS file for Easy-Designs.net
+Created 23 November 2007 by Aaron Gustafson
+of Easy! Designs, LLC (easy-designs.net)
+----------------------------------------------------------*/
+
+/* =Reset */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td { margin: 0; padding: 0; border: 0; outline: 0; font-weight: inherit; font-style: inherit; font-size: 100%; font-family: inherit; vertical-align: baseline; }
+:focus { outline: 0; }
+body { line-height: 1; color: black; background: white; }
+ol, ul { list-style: none; }
+table { border-collapse: separate; border-spacing: 0; }
+caption, th, td { text-align: left; font-weight: normal; }
+blockquote:before, blockquote:after, q:before, q:after { content: ""; }
+blockquote, q { quotes: "" ""; }
+
+/* =Typography */
+body {
+  font: 62.5%/1.5 "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, sans-serif;
+  padding: 1em;
+}
+h1, h2, h3, h4, h5, h6, legend, caption {
+  font-weight: bold;
+  line-height: 1.5;
+  margin-bottom: .5em;
+}
+h1 {
+  font-size: 250%;
+}
+h2 {
+  border-top: 4px solid;
+  clear: right;
+  float: left;
+  font-size: 1.2em;
+  letter-spacing: .05em;
+  text-transform: uppercase;
+}
+p, ol, ul {
+  clear: both;
+  font-size: 1.2em;
+  line-height: 1.5;
+  margin: 0 0 1.5em;
+  padding: 0;
+}
+li {
+  margin: 0 0 0 2em;
+}
+abbr, dfn, acronym {
+  cursor: help;
+}
+
+#logo {
+  font-size: 100%;
+}
+
+#projects h2 {
+  border: 0;
+  float: none;
+  text-transform: none;
+}
+
+#copyright {
+  font-size: .9em;
+}
+
+/* =Layout */
+@media screen {
+
+  body {
+    padding: 0;
+  }
+  
+  #content {
+    border: solid;
+    border-width: 0 5px 5px;
+    min-width: 450px;
+    max-width: 1000px;
+    margin: 0 10% 10px 300px;
+    padding: 40px 20px 20px;
+    position: relative;
+  }
+
+  h1 {
+    line-height: 0;
+    padding-top: 113px;
+    margin-top: -.4em;
+  }
+
+  #logo {
+    overflow: visible;
+    position: absolute;
+    left: -260px;
+  }
+  
+  #projects {
+    margin: 0;
+    padding: 1em 0 0;
+  }
+  
+  #projects li {
+    margin: 0 0 2em;
+  }
+  
+  #copyright {
+    line-height: 1;
+    padding: 0 0 0 330px;
+  }
+
+}
+
+/* =Color */
+body {
+  background: #ebebeb;
+}
+
+#content {
+  background-color: rgba( 100%, 100%, 100%, .5 );
+  border-color: #fff;
+  -webkit-box-shadow: 5px 5px 5px #ccc;
+  color: #515857;
+}
+
+a, a:link, a:visited {
+  color: #167f34;
+}
+a:focus, a:hover {
+  color: #54af46;
+}
