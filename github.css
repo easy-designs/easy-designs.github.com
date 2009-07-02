@@ -89,6 +89,10 @@ code {
     margin-top: -.4em;
   }
 
+  pre {
+    margin: 1.5em 0;
+  }
+
   #logo {
     overflow: visible;
     position: absolute;
@@ -114,6 +118,10 @@ code {
     display: block;
     margin: 1em auto;
   }
+  
+  .terminal {
+    padding: .5em 0;
+  }
 
 }
 
@@ -137,14 +145,15 @@ a:focus, a:hover {
 }
 
 .css {
-  color: #f30;
+  color: #294f00;
 }
 .js {
-  color: #f90;
+  color: #cf7000;
 }
 .html {
-  color: #f00;
+  color: #76007f;
 }
 .terminal {
-  color: #000;
+  background: #000;
+  color: #ebebeb;
 }
