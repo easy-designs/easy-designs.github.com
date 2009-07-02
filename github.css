@@ -120,7 +120,7 @@ code {
   }
   
   .terminal {
-    padding: 0 .5em;
+    padding: .2em .5em;
   }
 
 }
@@ -144,16 +144,6 @@ a:focus, a:hover {
   color: #54af46;
 }
 
-.css {
-  color: #294f00;
-}
-.js {
-  color: #cf7000;
-}
-.html {
-  color: #76007f;
-}
-.terminal {
-  background: #000;
-  color: #ebebeb;
+code {
+  color: #000;
 }
