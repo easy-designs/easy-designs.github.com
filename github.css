@@ -48,6 +48,9 @@ li {
 abbr, dfn, acronym {
   cursor: help;
 }
+code {
+  font: 120% Monaco, "Courier New", Courier, monospace;
+}
 
 #logo {
   font-size: 100%;
@@ -131,4 +134,17 @@ a, a:link, a:visited {
 }
 a:focus, a:hover {
   color: #54af46;
+}
+
+.css {
+  color: #f30;
+}
+.js {
+  color: #f90;
+}
+.html {
+  color: #f00;
+}
+.terminal {
+  color: #000;
 }
